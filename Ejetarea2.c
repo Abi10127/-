@@ -6,12 +6,15 @@
 #include <stdio.h>
 int main()
 {
-  float pi = 3.14;
-  float r;
-  float a = pi*r*r 
-  float c = 2*pi*r
+  float pi, a, c, r;
+  pi = 3.14;
+  
+  printf("Ingrese el valor del radio de la circunferencia: ");
+  scanf("%f", &r);
+  
+  a = pi*r*r;
+  c = 2*pi*r;
 
-  scanf("Ingresa el valor del radio de la circunferencia: ", &r);
   printf("El valor del área es: %f\n", a);
   printf("El valor de la circunferencia es: %f\n", c);
   return 0;
