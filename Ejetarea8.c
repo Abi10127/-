@@ -12,11 +12,11 @@ int main ()
 
   if( a % b == 0 )
   {
-    printf("El valor a es divisible entre b", T);
+    printf("El valor %d es divisible entre %d", a, b);
   }
   else
   {
-    printf("El valor a no es divisble entre b", T);
+    printf("El valor %d no es divisble entre %d", a, b);
   }
   return 0;
 }
