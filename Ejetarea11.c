@@ -1,0 +1,18 @@
+//Hacer un diagrama de flujo que calcule la suma de los números pares
+//comprendidos entre el 10 y 50.
+
+#include <stdio.h>
+int main() 
+{
+    int i, suma = 0;
+
+    for(i = 10; i <= 50; i++) 
+    {
+        if(i % 2 == 0) 
+        { 
+            suma = suma + i;
+        }
+    }
+    printf("La suma de los pares entre 10 y 50 es: %d\n", suma);
+    return 0;
+}
